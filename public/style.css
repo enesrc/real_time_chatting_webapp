@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input:focus, button:focus{
+    outline: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 20px;
+    color:white;
+    margin: auto;
+    background-color: #0085ad;
+}
+
+#chat-wrap{
+    max-width: 500px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;    
+}
+
+#chat-window{
+    height: 400px;
+    overflow-y: auto;
+}
+
+#output{
+    font-size: 15px;
+    padding: 12px;
+}
+
+#output p:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#feedback{
+    padding: 2px;
+    font-size: 13px;
+}
+
+#output strong{
+    color: #0085ad;
+}
+
+input{
+    font-family: sans-serif;
+    padding: 10px 20px;
+    border: 0;
+    border-top: 1px solid #ddd;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+
+button{
+    font-family: sans-serif;
+    background-color: #0085ad;
+    color: #fff;
+    border: 0;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 17px;
+}
+
+.error::placeholder{
+    color: rgb(255, 76, 76);
+}
+
+#chat-header{
+    background-color: #0085ad;
+    color: #fff;
+    padding: 5px 10px 5px 20px;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+}
+
+#room{
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 70.64%;
+    font-size: 20px;
+}
+
+#room:disabled{
+    background-color: white;
+}
+
+#joinBtn{
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 20%;
+    background: #fff;
+    color: #0085ad;
+    border: 1px solid #0085ad;
+}
+
+#leaveBtn{
+    color: rgb(245, 105, 105);
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 20%;
+    border: 1px solid rgb(245, 105, 105);
+    background: #fff;
+    display: none;
+}
