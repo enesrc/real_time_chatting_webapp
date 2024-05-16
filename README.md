@@ -1,1 +1,1 @@
-A simple real time chatting web application
+I used express and socket.io in this practical project.
